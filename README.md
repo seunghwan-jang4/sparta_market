@@ -77,3 +77,8 @@ python manage.py runserver
 ### 해시태그 설정
 물건 등록 시, 해시태그를 설정할 수 있으며, 해시태그는 띄어쓰기나 특수문자 없이 유일한 값으로 등록됩니다.
 
+
+## sparta_market의 ERD 
+
+![스크린샷 2024-12-27 234956](https://github.com/user-attachments/assets/ccb15e62-dc29-4ef7-9cfb-816191842771)
+
