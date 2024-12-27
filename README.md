@@ -32,6 +32,48 @@
 ## 설치 방법
 
 ### 리포지토리 클론
-```bash
+```
 git clone https://github.com/yourusername/spartamarket.git
 cd spartamarket
+```
+
+### 가상 환경 설정
+```
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate     # Windows
+```
+
+### 필요한 패키지 설치
+```
+pip install -r requirements.txt
+```
+
+
+### 데이터베이스 마이그레이션
+```
+python manage.py migrate
+```
+
+### 서버 실행
+```
+python manage.py runserver
+```
+
+## 사용 방법
+### 회원가입 및 로그인
+/signup/ 페이지에서 회원가입을 하고, /login/ 페이지에서 로그인하여 시스템에 접근할 수 있습니다.
+
+### 프로필 페이지
+로그인 후 /profile/ 페이지에서 자신의 프로필을 확인하고, 프로필 사진을 수정할 수 있습니다.
+
+### 물건 게시 및 관리
+/add-item/ 페이지에서 새로운 물건을 등록하고, /items/ 페이지에서 물건 목록을 볼 수 있습니다.
+각 물건은 찜하기 기능을 지원하며, 게시물 수정 및 삭제도 가능합니다.
+
+### 정렬 기능
+물건 목록 페이지에서 최신순으로 물건을 정렬할 수 있습니다.
+
+### 해시태그 설정
+물건 등록 시, 해시태그를 설정할 수 있으며, 해시태그는 띄어쓰기나 특수문자 없이 유일한 값으로 등록됩니다.
+
