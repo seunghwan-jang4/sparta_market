@@ -9,7 +9,7 @@
 
 ---
 <details>
-<summary>클릭</summary>
+<summary>주요 기능</summary>
 
 ## 주요 기능
 
@@ -30,7 +30,9 @@
 - **해시태그 규칙**: 해시태그는 유일하고, 띄어쓰기 및 특수문자는 허용되지 않습니다. 중복된 해시태그는 등록할 수 없습니다.
 
 </details>
----
+
+<details>
+<summary>설치 방법</summary>
 
 ## 설치 방법
 
@@ -62,6 +64,7 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+</details>
 
 ## 사용 방법
 ### 회원가입 및 로그인
