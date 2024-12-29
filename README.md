@@ -66,6 +66,9 @@ python manage.py runserver
 ```
 </details>
 
+<details>
+<summary>사용 방법</summary>
+  
 ## 사용 방법
 ### 회원가입 및 로그인
 /signup/ 페이지에서 회원가입을 하고, /login/ 페이지에서 로그인하여 시스템에 접근할 수 있습니다.
@@ -83,6 +86,7 @@ python manage.py runserver
 ### 해시태그 설정
 물건 등록 시, 해시태그를 설정할 수 있으며, 해시태그는 띄어쓰기나 특수문자 없이 유일한 값으로 등록됩니다.
 
+</details>
 
 ## sparta_market의 ERD 
 
