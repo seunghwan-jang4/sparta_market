@@ -33,7 +33,7 @@
 
 ### 리포지토리 클론
 ```
-git clone https://github.com/yourusername/spartamarket.git
+git clone https://github.com/seunghwan-jang4/spartamarket.git
 cd spartamarket
 ```
 
